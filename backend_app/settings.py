@@ -26,7 +26,7 @@ SECRET_KEY = '6#^1p9deb69h8^v)7os)^w)*$27&wls5v8nr*!#3q$@^vu8mx3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://imagesapi122.herokuapp.com']
 
 
 # Application definition
