@@ -69,6 +69,8 @@ class UploadedImage(models.Model):
         return self.title
 
     def save(self, force_insert=False, force_update=False, using=None, update_fields=None):
+
+        super(UploadedImage, self).save(force_update=force_update)
         """
         On save, generate a new thumbnail
         :param force_insert:
